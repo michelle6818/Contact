@@ -20,29 +20,61 @@
                   
                   <div class="row"> 
                     <div class="col-2">
-                    <label for="name">Full Name:  </label>          
-                      <input type="text" name="name" id="name" placeholder="Name" />
+                      <label for="name">First Name:</label>         
+                        <input 
+                          type="text" 
+                          class="form-control"
+                          name="firstname" 
+                          id="firstname" 
+                          placeholder="First Name" />
+                    </div>
+
+                    <div class="col-2">
+                      <label for ="name">Last Name:</label>
+                        <input 
+                          type="text" 
+                          class="form-control"
+                          name="lastname" 
+                          id="lastname" 
+                          placeholder="Last Name" />
+                    </div>
+                 </div>
+
+                    <div class="row">
+                      <div class="col-2">
+                      <label for="email">Email:</label>
+                      <input 
+                        type="email"
+                        class="form-control" 
+                        name="email" 
+                        id="email" 
+                        placeholder="Email" />
                     </div>
                   </div>
+
                     <div class="row">
                       <div class="col-2">
-                      <label for="email">Email:    </label>
-                      <input type="email" name="email" id="email" placeholder="Email" />
-                    </div>
-                     </div>
-                    <div class="row">
-                      <div class="col-2">
-                      <label for="message">Message:    </label>
-                      <textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
+                       <label for="message">Message:</label>
+                        <textarea 
+                          name="message" 
+                          class="form-control"
+                          id="message" 
+                          placeholder="Message" 
+                          rows="7">
+                          co</textarea>
                     </div> 
-                  </div>              
-                    <button type="submit" class="btn btn-danger">Submit</button>
+                  </div> 
+
+                  <button 
+                    type="submit" 
+                    class="btn btn-danger">Submit
+                  </button>
+
                   </div>
               </form>
           </div>
       </div>
-  </div>
-
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
